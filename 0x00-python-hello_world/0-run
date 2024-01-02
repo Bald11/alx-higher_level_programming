@@ -1,5 +1,2 @@
 #!/bin/bash
-PYFILE="/alx-higher_level_programming/0x00-python-hello_world/main.py"
-if [ -e "$PYFILE" ]; then
-    python3 "$PYFILE"
-fi
+python3 "$PYFILE"
