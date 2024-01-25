@@ -4,4 +4,3 @@ for i in range(0, 99 + 1):
         print("{:02d}, ".format(i), end='')
     else:
         print("{}".format(i))
-            
