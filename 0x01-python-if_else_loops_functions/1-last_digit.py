@@ -6,7 +6,7 @@ if number < 0:
     last_digit = "-" + number_string[-1]
 else:
     last_digit = number_string[-1]
-print("Last digit of {} is {}".format(number,last_digit), end=' ')
+print("Last digit of {} is {}".format(number, last_digit), end=' ')
 number_int = int(last_digit)
 if number_int > 5:
     print("and is greater than 5")
