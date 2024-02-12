@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 islower = __import__('7-islower').islower
 
+
 def uppercase(str):
     str = str + '\n'
     for i in str:
@@ -9,4 +10,3 @@ def uppercase(str):
         else:
             print(i, end='')
     return None
-
