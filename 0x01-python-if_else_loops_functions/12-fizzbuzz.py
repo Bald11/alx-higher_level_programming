@@ -3,8 +3,10 @@
 def fizz(fizz):
     return fizz % 3 == 0
 
+
 def buzz(buzz):
     return buzz % 5 == 0
+
 
 def fizzbuzz():
     for i in range(1, 101):
