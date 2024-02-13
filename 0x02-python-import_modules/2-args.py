@@ -9,7 +9,7 @@ if __name__ == "__main__":
         if (len(sys.argv) == 2):
             output += '1 argument:\n1: {}\n'.format(sys.argv[1])
         else:
-            output += '{} arguments:\n'.format(len(sys.argv))
+            output += '{} arguments:\n'.format(len(sys.argv) - 1)
             for i in range(1, len(sys.argv)):
                 output += '{}: {}\n'.format(i, sys.argv[i])
     print(output, end='')
